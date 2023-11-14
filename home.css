@@ -113,8 +113,8 @@ main {
 
 .team-card img {
     max-width: 100%;
-    height: auto;
-    border-radius: 50%;
+    height: 40px;
+    border-radius: 18%;
     margin-bottom: 10px;
 }
 
