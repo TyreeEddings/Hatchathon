@@ -9,7 +9,7 @@ body {
 /* Header Styles */
 header {
     background-color: #ff0000;
-    padding: 10px 20px;
+    padding: 10px 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +44,12 @@ nav ul {
 nav ul li {
     margin-right: 20px;
 }
+.login-btn img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0px;
+    padding-right: 10px;
+}
 
 nav a.nav-btn {
     text-decoration: none;
@@ -63,10 +69,15 @@ nav a.nav-btn:hover {
 .login-btn a {
     text-decoration: none;
     color: #ffffff;
-    border: 1px solid #ffffff;
-    padding: 8px 15px;
-    border-radius: 5px;
+    padding: 9px 15px;
+    
 }
+.login-btn:hover {
+    background-color: black;
+    border-radius: 15%;
+}
+
+
 
 /* Main Content Styles */
 main {
@@ -117,4 +128,3 @@ footer {
     bottom: 100;
     width: 100%;
 }
-
