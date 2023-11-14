@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Bubbly font */
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff0000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 24px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a.nav-btn {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px; /* Adjust as needed */
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav a.nav-btn:hover {
+    background-color: #ffffff;
+    color: #ff0000;
+}
+
+.login-btn a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 80px 20px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Meet the Team Section Styles */
+.team {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.team-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+}
+
